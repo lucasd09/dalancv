@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  max-height: 100vh;
+}
+
+.botao-grupo {
+  padding-top: 50px;
+  
+}
+
+.grid-sidebar {
+  height: 100vh;
+  background-color: rgb(46, 46, 46);
+}
+
+.grid-rotas {
+  height: 100vh;
+}
+
+.link-sem-decoration {
+  text-decoration: none;
+}
+
+.botao-estilo {
+  width: 80%;
+}
+
+.page-estilo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.container-estilo {
+  max-width: 800px;
+}
+
+.botao-grupo-a {
+  display: flex;
+  justify-content: center;
+}
+
+.card-estilo {
+  background-color: rgb(46, 46, 46);
+  color: aliceblue;
+}
+
+.font-h1 {
+  color: #fff;
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+.font-h3 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.alo {
+  color: #0058a5;
+}
