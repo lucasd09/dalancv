@@ -10,7 +10,7 @@ export default function Home() {
             <Container className='botao-grupo'>
                 <Stack direction="row" spacing={2} className='botao-grupo-a'>
                     <Button variant='outlined' disabled>Baixar CV</Button>
-                    <Button variant='outlined' href='/about'>Conhecer</Button>
+                    <Button variant='outlined' disabled href='/about'>Conhecer</Button>
                 </Stack>
             </Container>      
         </Container>
