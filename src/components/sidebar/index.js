@@ -41,7 +41,7 @@ export default function Sidebar() {
                 <Stack spacing={3} className='botao-grupo'>
                     <h1 className='font-h1'>Portfolio</h1>
                     <h3 className='font-h3'>Currículo online</h3>
-                    <Divider variant="middle"sx={{width: '100%'}} />
+                    <Divider variant='middle'/>
                     <Link to="/" className='link-sem-decoration'><Button className='botao-estilo' color='primary' variant='outlined' startIcon={<HomeIcon/>} size='large'>Home</Button></Link>
                     <Link to="/about" className='link-sem-decoration'><Button className='botao-estilo' color='primary' variant='outlined' startIcon={<InfoIcon/>} size='large'>Sobre</Button></Link>
                     <Link to="/projects" className='link-sem-decoration'><Button className='botao-estilo' color='primary' variant='outlined' startIcon={<AccountTreeIcon/>} size='large'>Projetos</Button></Link>

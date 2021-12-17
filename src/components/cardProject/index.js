@@ -12,7 +12,7 @@ export default function CardProject(props) {
                 <CardActionArea>
                     <CardMedia
                     component="img"
-                    height="120"
+                    height="160"
                     image={props.imgPath}
                     alt="foto"
                     />
