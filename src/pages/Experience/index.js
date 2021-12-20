@@ -17,6 +17,8 @@ export default function Experience() {
                     <ListItemProject title='CCI - Centro de Comunicação Inglesa' data='26/01/2021 - 30/11/2021' alt='teste alt' imgPath={imagem} text='Monitoria para alunos que estão com dificuldades em sala de aula,sendo necessário revisar conteúdo referente a matéria lecionada pelo professor em sala de aula.'/>
                     <Divider variant="inset" component="li" />
                     <ListItemProject title='Telecontrol - TI' data='06/10/2021 - 24/10/2021' alt='teste alt' imgPath={imagem} text='Por conta do tempo, nao foi possível aprender na prática sobre o funcionamento do sistema da empresa, porém foi possível praticar os conhecimentos e skills de programação e lógica.'/>
+                    <Divider variant="inset" component="li" />
+                    <ListItemProject title='FRG - Informática' data='03/11/2021 - Atualmente' alt='teste alt' imgPath={imagem} text='Desenvolvimento de um sistema ERP, usando Delphi como Tecnologia de Desenvolvimento.'/>
                 </List>
             </Container>
         </div>

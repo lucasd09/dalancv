@@ -1,5 +1,6 @@
 import { Button, Container, Stack } from '@mui/material'
 import React from 'react'
+import resume from '../../utils/Lucas_Dalan_Resume.pdf'
 
 export default function Home() {
 
@@ -9,7 +10,7 @@ export default function Home() {
             <h3>Lucas Dalan</h3>
             <Container className='botao-grupo'>
                 <Stack direction="row" spacing={2} className='botao-grupo-a'>
-                    <Button variant='outlined' disabled>Baixar CV</Button>
+                    <Button variant='outlined' href={resume} download>Baixar CV</Button>
                     <Button variant='outlined' disabled href='/about'>Conhecer</Button>
                 </Stack>
             </Container>      

@@ -36,7 +36,7 @@ const theme = createTheme({
 
 export default function Sidebar() {
     return (
-        <div>
+        <div className=''>
             <ThemeProvider theme={theme}>
                 <Stack spacing={3} className='botao-grupo'>
                     <h1 className='font-h1'>Portfolio</h1>
