@@ -9,7 +9,7 @@ export default function CardProject(props) {
     return (
         <div>
             <Card sx={{ maxWidth: props.wdt }}>
-                <CardActionArea>
+                <CardActionArea href={props.link} target="_blank" rel="noreferrer">
                     <CardMedia
                     component="img"
                     height="160"

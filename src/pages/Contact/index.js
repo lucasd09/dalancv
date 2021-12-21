@@ -1,13 +1,13 @@
 import { Button, Container, Grid } from '@mui/material'
 import React from 'react'
 import ComplexGrid from '../../components/ComplexGrid/ComplexGrid'
-import imagem from '../../utils/logo512.png'
 import resume from '../../utils/Lucas_Dalan_Resume.pdf'
 import certificado from '../../utils/Certificado_Python.pdf'
 import wpp from '../../utils/icon-whatsApp.png'
 import insta from '../../utils/icon-instagram.png'
 import linkedin from '../../utils/LinkedIn_icon_circle.svg.png'
 import gmail from '../../utils/gmail-icon.png'
+import github from '../../utils/github.png'
 import DownloadIcon from '@mui/icons-material/Download';
 
 export default function Contact() {
@@ -22,7 +22,7 @@ export default function Contact() {
                 </Grid>
                 <Grid container spacing={2} md={12} sx={{paddingTop: 2, paddingBottom: 2}}>
                     <Grid item><ComplexGrid img={insta} title={<a className='link-sem-decoration' target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/lucasdalan/'>@lucas.dalan</a>}/></Grid>
-                    <Grid item><ComplexGrid img={imagem} title='(14) 99708-6111'/></Grid>
+                    <Grid item><ComplexGrid img={github} title={<a className='link-sem-decoration' target="_blank" rel="noreferrer" href='https://github.com/lucasd09'>lucasd09</a>}/></Grid>
                 </Grid>
                 <h2>Conteúdo para Download</h2>
                 <Grid container spacing={2} md={12} sx={{paddingTop: 2}}>

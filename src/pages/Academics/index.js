@@ -3,6 +3,8 @@ import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItemProject from '../../components/ListProject/ListItemProject';
 import imagem from '../../utils/logo512.png'
+import python from '../../utils/python.png'
+import univem from '../../utils/univem.png'
 import { Container } from '@mui/material'
 
 export default function Academics() {
@@ -15,10 +17,10 @@ export default function Academics() {
                     <Divider variant="inset" component="li" />
                     <ListItemProject title='Curso de Inglês' data='26/03/2019 - 08/12/2021' alt='teste alt' imgPath={imagem} text='CCI - Centro de Comunicação Inglesa.'/>
                     <Divider variant="inset" component="li" />
-                    <ListItemProject title='UNIVEM - Marília' data='08/02/2020 - 02/12/2024' alt='teste alt' imgPath={imagem} text='Centro Universitário Eurípedes de Marília.'/>
+                    <ListItemProject title='UNIVEM - Marília' data='08/02/2020 - 02/12/2024' alt='teste alt' imgPath={univem} text='Centro Universitário Eurípedes de Marília.'/>
                     <Divider variant="inset" component="li" />
                     <h2>Cursos Adicionais</h2>
-                    <ListItemProject title='Programação em Python do básico ao avançado' data='20/08/2021' alt='teste alt' imgPath={imagem} text='Duração: 63,5 horas no total'/>
+                    <ListItemProject title='Programação em Python do básico ao avançado' data='20/08/2021' alt='teste alt' imgPath={python} text='Duração: 63,5 horas no total'/>
                     
                 </List>
             </Container>
