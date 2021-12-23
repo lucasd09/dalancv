@@ -15,12 +15,12 @@ export default function Academics() {
                 <List sx={{ width: '80%', bgcolor: 'background.paper'}}>
                     <ListItemProject title='Ensino Médio' data='26/01/2017 - 02/12/2019' alt='teste alt' imgPath={imagem} text='Escola SESI-SP 267.'/>
                     <Divider variant="inset" component="li" />
-                    <ListItemProject title='Curso de Inglês' data='26/03/2019 - 08/12/2021' alt='teste alt' imgPath={imagem} text='CCI - Centro de Comunicação Inglesa.'/>
+                    <ListItemProject title='Curso de Inglês' data='26/03/2019 - 08/12/2021' alt='teste alt' imgPath={imagem} text='CCI - Centro de Comunicação Inglesa. English Level C1.'/>
                     <Divider variant="inset" component="li" />
-                    <ListItemProject title='UNIVEM - Marília' data='08/02/2020 - 02/12/2024' alt='teste alt' imgPath={univem} text='Centro Universitário Eurípedes de Marília.'/>
+                    <ListItemProject title='UNIVEM - Marília' data='08/02/2020 - 02/12/2024' alt='teste alt' imgPath={univem} text='Centro Universitário Eurípedes de Marília. Bacharelado em Ciências da Computação.'/>
                     <Divider variant="inset" component="li" />
                     <h2>Cursos Adicionais</h2>
-                    <ListItemProject title='Programação em Python do básico ao avançado' data='20/08/2021' alt='teste alt' imgPath={python} text='Duração: 63,5 horas no total'/>
+                    <ListItemProject title='Programação em Python do básico ao avançado' data='20/08/2021' alt='teste alt' imgPath={python} text='Duração: 63,5 horas no total.'/>
                     
                 </List>
             </Container>

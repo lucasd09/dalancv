@@ -10,7 +10,7 @@ export default function CardHobbies(props) {
             <Container sx={{display: "flex", textAlign: 'start', alignItems: 'center'}}>
                 <Container sx={{}}>
                     <h2>{props.title}</h2>
-                    <h4>{props.text}</h4>
+                    <p>{props.text}</p>
                 </Container>
             </Container>
         </Container>
