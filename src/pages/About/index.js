@@ -11,7 +11,7 @@ export default function About() {
                     <Grid item md={3}><Avatar src={imagem} sx={{ width: 180, height: 180 }}/></Grid>
                     <Grid item md={8} sx={{textAlign: 'start'}}>
                         <h1>Lucas Dalan</h1>
-                        <h3>Desenvolvedor/Analista de Software | React | Python | Java | Web 3.0 | Ciências Da Computação</h3>
+                        <h3>Developer | React | Python | Web 3.0 | Ciências Da Computação </h3>
                     </Grid>
                 </Grid>
                 <Container sx={{paddingTop: 5, textAlign: "justify"}}>
