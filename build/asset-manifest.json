@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b61e4b6d.chunk.css",
+    "main.js": "/static/js/main.117f9e95.chunk.js",
+    "main.js.map": "/static/js/main.117f9e95.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.17a0c285.js",
+    "runtime-main.js.map": "/static/js/runtime-main.17a0c285.js.map",
+    "static/js/2.bd8b74a2.chunk.js": "/static/js/2.bd8b74a2.chunk.js",
+    "static/js/2.bd8b74a2.chunk.js.map": "/static/js/2.bd8b74a2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b61e4b6d.chunk.css.map": "/static/css/main.b61e4b6d.chunk.css.map",
+    "static/js/2.bd8b74a2.chunk.js.LICENSE.txt": "/static/js/2.bd8b74a2.chunk.js.LICENSE.txt",
+    "static/media/Certificado_Python.8d4062cd.pdf": "/static/media/Certificado_Python.8d4062cd.pdf",
+    "static/media/LinkedIn_icon_circle.svg.66ffd29a.png": "/static/media/LinkedIn_icon_circle.svg.66ffd29a.png",
+    "static/media/Lucas_Dalan_Resume.6b365716.pdf": "/static/media/Lucas_Dalan_Resume.6b365716.pdf",
+    "static/media/icon-instagram.75e0546a.png": "/static/media/icon-instagram.75e0546a.png",
+    "static/media/icon-whatsApp.ccf92eda.png": "/static/media/icon-whatsApp.ccf92eda.png",
+    "static/media/imgAbout.4b1d855e.jpg": "/static/media/imgAbout.4b1d855e.jpg",
+    "static/media/parimpar.f0d7e84b.png": "/static/media/parimpar.f0d7e84b.png",
+    "static/media/portfolio.52b12c6c.png": "/static/media/portfolio.52b12c6c.png",
+    "static/media/python.c44b9b80.png": "/static/media/python.c44b9b80.png",
+    "static/media/thewitcher.1e4ae01e.jpg": "/static/media/thewitcher.1e4ae01e.jpg",
+    "static/media/univem.1cdc68ee.png": "/static/media/univem.1cdc68ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17a0c285.js",
+    "static/js/2.bd8b74a2.chunk.js",
+    "static/css/main.b61e4b6d.chunk.css",
+    "static/js/main.117f9e95.chunk.js"
+  ]
+}
