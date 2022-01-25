@@ -13,7 +13,7 @@ import Contact from './pages/Contact'
 
 export default function Rotas() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Grid container md={12}>
                 <Grid item md={3} className='grid-sidebar'><Sidebar /></Grid>
                 <Grid item md={9} className='grid-rotas'>
