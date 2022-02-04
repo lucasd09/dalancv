@@ -6,8 +6,7 @@ export default function Home() {
 
     return (
         <Container className='page-estilo' maxWidth='md'>
-            <h1>Portfolio</h1>
-            <h3>Lucas Dalan</h3>
+            <h1>Eu sou o Lucas</h1>
             <Container className='botao-grupo'>
                 <Stack direction="row" spacing={2} className='botao-grupo-a'>
                     <Button variant='outlined' href={resume} download>Baixar CV</Button>

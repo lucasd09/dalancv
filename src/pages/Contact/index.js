@@ -3,6 +3,10 @@ import React from 'react'
 import ComplexGrid from '../../components/ComplexGrid/ComplexGrid'
 import resume from '../../utils/Lucas_Dalan_Resume.pdf'
 import certificado from '../../utils/Certificado_Python.pdf'
+import pdf1 from '../../utils/participantepdf.pdf'
+import pdf2 from '../../utils/participantepdf (1).pdf'
+import pdf3 from '../../utils/participantepdf (2).pdf'
+import pdf4 from '../../utils/participantepdf (3).pdf'
 import wpp from '../../utils/icon-whatsApp.png'
 import insta from '../../utils/icon-instagram.png'
 import linkedin from '../../utils/LinkedIn_icon_circle.svg.png'
@@ -28,6 +32,10 @@ export default function Contact() {
                 <Grid container spacing={2} md={12} sx={{paddingTop: 2}}>
                     <Grid item><Button variant='outlined' href={resume} download startIcon={<DownloadIcon/>}>Baixar CV</Button></Grid>
                     <Grid item><Button variant='outlined' href={certificado} download startIcon={<DownloadIcon/>}>Certificado python</Button></Grid>
+                    <Grid item><Button variant='outlined' href={pdf1} download startIcon={<DownloadIcon/>}>Palestra "Finanças Mitos e Verdades"</Button></Grid>
+                    <Grid item><Button variant='outlined' href={pdf2} download startIcon={<DownloadIcon/>}>10º CONGRESSO DE PESQUISA CIENTÍFICA</Button></Grid>
+                    <Grid item><Button variant='outlined' href={pdf4} download startIcon={<DownloadIcon/>}>11º CONGRESSO DE PESQUISA CIENTÍFICA</Button></Grid>
+                    <Grid item><Button variant='outlined' href={pdf3} download startIcon={<DownloadIcon/>}>XIV Semana de Tecnologia da Informação</Button></Grid>
                     <Grid item><Button variant='outlined' href={resume} download startIcon={<DownloadIcon/>}>placeholder</Button></Grid>
                 </Grid>
             </Container>
